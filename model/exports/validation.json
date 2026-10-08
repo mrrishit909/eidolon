@@ -1,0 +1,22 @@
+{
+ "dress-form.glb": {
+  "tris": 668,
+  "bytes": 25776,
+  "materials": [
+   "Bone",
+   "Chrome"
+  ],
+  "missing": [],
+  "orphans": []
+ },
+ "thread-spool.glb": {
+  "tris": 180,
+  "bytes": 12224,
+  "materials": [
+   "Chrome",
+   "ElectricThread"
+  ],
+  "missing": [],
+  "orphans": []
+ }
+}

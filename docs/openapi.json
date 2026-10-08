@@ -1,0 +1,35 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "EIDOLON API",
+  "version": "1.0.0",
+  "description": "Synthetic digital-couture demo data."
+ },
+ "paths": {
+  "/v1/fabrics": {
+   "get": {
+    "summary": "Fabric swatches"
+   }
+  },
+  "/v1/garment": {
+   "get": {
+    "summary": "Garment state (wrap/drape) at ?t=&fabric="
+   }
+  },
+  "/v1/log": {
+   "get": {
+    "summary": "Atelier log"
+   }
+  },
+  "/v1/log/{id}/notes": {
+   "post": {
+    "summary": "Add a note; requires Idempotency-Key"
+   }
+  },
+  "/v1/atelier/live": {
+   "get": {
+    "summary": "WebSocket: replays the Thread-to-Runway sequence (query speed=1..60)"
+   }
+  }
+ }
+}
